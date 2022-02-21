@@ -7,6 +7,11 @@ body {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 h1 {
     font-size: 50px;
     text-align: center;
@@ -31,11 +36,12 @@ span {
 }
 section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 2%;
+    padding: 2%;
 }
 .half-width img {
     width: 90%;
